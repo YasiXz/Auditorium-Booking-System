@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 149, 5, 0.648);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Left Side */
+.left {
+    width: 50%;
+    background: linear-gradient(to bottom, #1cc002, #107800);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    position: relative;
+}
+
+   
+.left h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.left p {
+    font-size: 16px;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+
+.left .website {
+    position: absolute;
+    bottom: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Right Side */
+.right {
+    width: 50%;
+    background: #ffffff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    outline: none;
+    padding-left: 20px;
+}
+
+.continue-btn {
+    width: 100%;
+    background: linear-gradient(to right, #1cc002, #107800);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Google{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    background: #2c0050;
+}
+.continue{
+    text-decoration: none;
+}
+
+.continue-btn span {
+    margin-left: 10px;
+}
+
+.social-login {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    margin: 20px 0;
+}
+
+.social-buttons {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    background: #4267B2;
+}
+.nav-tabs {
+    display: flex;
+    font-size: 15px;
+    list-style-type: none;
+    padding: 0;
+    border: 0px solid #000000; /* Add border to the entire tab container */
+    border-radius: 10px; 
+    overflow: hidden; /* Ensures the borders are cleanly displayed */
+}
+.tbl{
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 1000;
+}
+.nav-tabs a {
+    display: block;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #1cc002 ;
+    
+}
+.nav-tabs a:hover {
+    background-color: #107500 ;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

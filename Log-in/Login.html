@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="icon" type="image/png" href="../Index/logo W.png">
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js"></script>
+    <!-- Custom Script -->
+    <script src="login.js" type="module" defer></script>
+</head>
+<body>
+    <ul class="nav-tabs tbl shadow">
+        <li><a href="../Sign in/Sign in.html" onclick="openTab(event, 'about')">Sign-In</a></li>
+    </ul>
+    <div class="container">
+        <!-- Left Section -->
+        <div class="left">
+            <img style="border-radius: 30px; padding-bottom: 10px;" src="../Index/logo W.png" width="250px">
+            <h1>Welcome Back,</h1>
+            <p>Log in to continue</p>
+            <div class="website">www.BoolConnect.com</div>
+        </div>
+        <!-- Right Section -->
+        <div class="right">
+            <h2>Log In</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <input type="email" placeholder="User Name" id="email" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" placeholder="Password" id="password" required>
+                </div>
+                <button type="submit" class="continue-btn">CONTINUE</button>
+                <div class="social-login">Don't have an account?</div>
+                <a href="../Sign in/Sign in.html">
+                    <center>
+                    <div style="color: #a60006;"><b>Sign Up</b></div></a>
+                    </center>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
